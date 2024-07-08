@@ -1,1 +1,1 @@
-# diplomado2
+# Autor: Eddy Paco Mamani
