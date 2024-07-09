@@ -19,7 +19,7 @@ require('dotenv').config();
 
 async function main() {
     // Sincronizamos la base de datos
-    await sequelize.sync({ force: false });  // force: true, elimina la tabla y la vuelve a crear
+    await sequelize.sync({ force: true });  // force: true, elimina la tabla y la vuelve a crear
                                             // force: false, no elimina la tabla, solo la crea si no existe
 
 

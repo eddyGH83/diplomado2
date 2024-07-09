@@ -15,7 +15,8 @@ exports.sequelize = new Sequelize(
         host: process.env.DB_HOST, // Host
         dialect : process.env.DB_DIALECT, // Dialecto
         port: process.env.DB_PORT, // Puerto
-        logging: console.log // Loguear consultas
+        logging: console.log, // Loguear consultas
+        ssl: true, // SSL
     }
 );
 
